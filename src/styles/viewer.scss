@@ -1,0 +1,27 @@
+.viewer{
+    min-height: 400px;
+    padding: 10px;
+    height: 100%;
+    .dash-border{
+        border: 1px dashed #000000;
+        min-height:350px;
+    }
+    .button-group{
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: 1fr 1fr 1fr 1fr auto;
+        padding-bottom: 10px;
+    }
+
+    .target-dom{
+        border: 1px solid transparent;
+        cursor: pointer;
+        *{
+            cursor: pointer;
+        }
+        &:hover{
+            border-color: #f0f1f2;
+            box-shadow: 0 2px 8px #f0f1f2;
+        }
+    }
+}

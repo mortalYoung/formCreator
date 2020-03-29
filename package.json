@@ -1,0 +1,52 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@types/js-beautify": "^1.8.2",
+    "@types/mustache": "^4.0.1",
+    "@types/typography": "^0.16.3",
+    "antd": "^4.0.3",
+    "codemirror": "^5.52.2",
+    "gatsby": "^2.19.45",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-import": "^2.1.5",
+    "gatsby-plugin-sass": "^2.1.31",
+    "gatsby-plugin-typescript": "^2.2.5",
+    "gatsby-plugin-typography": "^2.3.25",
+    "js-beautify": "^1.10.3",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-codemirror2": "^7.1.0",
+    "react-dom": "^16.12.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "babel-plugin-import": "^1.13.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

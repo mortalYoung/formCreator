@@ -1,0 +1,27 @@
+.whitebg{
+    background:#fff;
+}
+.header{
+    @extend .whitebg;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    box-shadow: 0 2px 8px #f0f1f2;
+    color:#314659;
+    font-size: 18px;
+    display: flex;
+    .title{
+        margin-right:10px;
+    }
+    .extra{
+        font-size: 14px;
+    }
+}
+.content{
+    @extend .whitebg;
+    height: 100%;
+}
+.footer{
+    @extend .whitebg;
+    text-align: center;
+}
